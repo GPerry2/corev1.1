@@ -1,0 +1,504 @@
+[33mcommit 5906228a81cba7a0f1e1c20ea638dc488d6f1308[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Mon Feb 13 15:51:01 2017 -0500
+
+    Forgot to gulp AGAIN
+
+[33mcommit cca382bf53dbf4f8af6dfc0510a72bbf66cf8590[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Mon Feb 13 15:46:45 2017 -0500
+
+    Allow html attributes to be passed through when creating text input fields with cot form
+
+[33mcommit 963adf514cfafc37106c003d419283ef9b92ec9a[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Mon Feb 13 10:46:54 2017 -0500
+
+    Allow the moment library to be loaded by the core as an option
+
+[33mcommit ed4a55b2cd363d9715802a8a750ded4a6ff0a02f[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Feb 10 11:30:38 2017 -0500
+
+    Change class prop name in cot_form stuff to className
+
+[33mcommit 9f58e4fb0034b4d358b1e8da09d8feea1d20826d[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Feb 9 11:27:46 2017 -0500
+
+    Update comment
+
+[33mcommit acb4ad7431985475d64364d67ccf4d34c1ee64c1[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Feb 9 09:28:24 2017 -0500
+
+    Add formValidationSettings option to cot_form.render call, so options can be passed directly to the formValidation plugin.
+    Set the type attribute on buttons to 'button' so that they are not treated as submit buttons (which triggers the form validation).
+    Fix the onclick option passed to button fields so it actually works.
+    Update CotFormHelper to work with grids.
+
+[33mcommit c045e41a9df7ad26d198d57d62da4fd4c789ba8c[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Wed Feb 8 13:33:28 2017 -0500
+
+    Fix default cot app option value
+
+[33mcommit 7f14a7e7466219b2bf45c7ae4b322404f44cb471[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Wed Feb 8 13:25:29 2017 -0500
+
+    Add comments and make app convenience methods work for the nav area
+
+[33mcommit 58d4eff62eef0550d904115a6411ac1fe64e448f[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Wed Feb 8 13:18:10 2017 -0500
+
+    Remove unused html file and fix jQuery selector references to elements
+
+[33mcommit 8841a3642dbb2b63bc4f58c50ed7cc1ffe91b3f7[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Wed Feb 8 13:14:34 2017 -0500
+
+    Comments
+
+[33mcommit ce15d3dc3f47d2a7fdb4cc888ee9215c8b6bb574[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Wed Feb 8 11:39:57 2017 -0500
+
+    Simplify options processing.
+
+[33mcommit 1eb1d20b0447b2948ae636deee972d0c41176d0e[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Wed Feb 8 11:27:14 2017 -0500
+
+    Add comment
+
+[33mcommit 386ba3f4e099a9c2c999243f6d3cd5a6f008f802[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Wed Feb 8 11:21:39 2017 -0500
+
+    Add a CotFormHelper object
+
+[33mcommit fe0dfd64822e97ba71b4ec81de3802b264c9ced0[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Wed Feb 8 10:52:54 2017 -0500
+
+    Once again, forgot to gulp before committing
+
+[33mcommit bd33e27a83f021a2577e8aff416bceaa1f3eee67[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Wed Feb 8 10:49:10 2017 -0500
+
+    Add some helper methods to cot_app
+
+[33mcommit dd9cc20ad222bdbf5609349bc0c7a1251b8a57a9[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Tue Feb 7 16:32:17 2017 -0500
+
+    Add some comments and remove old code
+
+[33mcommit 581f9f0db6922ee03ace18265d0149f1fbd1917e[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Tue Feb 7 11:30:02 2017 -0500
+
+    Fix bug in showTerms and rename a couple variables
+
+[33mcommit 0fd6248ca0e38319bab538d1a575bf2760fc63e8[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Mon Feb 6 15:29:54 2017 -0500
+
+    Forgot to build before commit!
+
+[33mcommit 785568ef6e9ceb255f5aa60a014f03f26e58ceea[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Mon Feb 6 15:25:24 2017 -0500
+
+    Fix font size reset and on load from cookie.
+
+[33mcommit 167f0e25a8b1902505fb92c3131d738d761c2ff1[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Mon Feb 6 14:28:41 2017 -0500
+
+    Remove old code.
+    Allow options during new cot_app call
+    Add comments
+
+[33mcommit 082baea8e42d48ea25115a1183b1aefbb183d073[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Mon Feb 6 14:03:38 2017 -0500
+
+    Initialize breadcrumb and return cot_app from setBreadcrumb method for chaining.
+    Update addSection and addRow to accept raw objects.
+    Return cot_app from addRow and addGrid to allow chaining;
+
+[33mcommit 9baf9629c9efd9b415f7c63f3b984af744154bf6[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Mon Feb 6 11:55:47 2017 -0500
+
+    Forgot to update version in bower:)
+
+[33mcommit aba271ba988ed40967489f869365d44ce3aee6e1[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Mon Feb 6 11:41:39 2017 -0500
+
+    Stop using load-plugins.
+    Distribute non-minified css and js to bower.
+    Add css autoprefixer and gulp rename
+
+[33mcommit e17a6abf4327cb02431ccc1cc12f43dc65ed0949[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Mon Feb 6 09:57:50 2017 -0500
+
+    Fix bower version number
+
+[33mcommit a668c6f1e5c4f2f32570b84ae82104570f7c6d9c[m
+Merge: 8cfd7b4 2b91a1c
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Feb 2 15:52:14 2017 -0500
+
+    Merge branch 'master' into new_build_process
+
+[33mcommit 8cfd7b4204711a0482c740d525eaae076d4def09[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Feb 2 15:35:47 2017 -0500
+
+    Change reference to cot_bower_enabled
+
+[33mcommit 191f3bc0eb1f6d7cfb0aef90d106f845e103f583[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Feb 2 15:29:08 2017 -0500
+
+    Change baseUrl to be automatically set for bower enabled usage of the core
+
+[33mcommit 2b91a1cbb9fcf12e58aa8929b7eb746e4715453f[m
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Mon Jan 30 15:49:06 2017 -0500
+
+    Revert required field labelling to optional
+
+[33mcommit d44022df45b776ae183d69891223b2197aecba6b[m
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Fri Jan 27 16:49:34 2017 -0500
+
+    added form-control class to fieldset of radio buttons and checkboxes
+
+[33mcommit 6e6957af835316c86deb5ed418d052b337f76329[m
+Merge: 3fbe017 b7f7850
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Fri Jan 27 16:37:18 2017 -0500
+
+    Merge branch 'master' of /media/sf_X_DRIVE/secure/docs/webapps/source/corev1.1
+
+[33mcommit 3fbe017cda5045ed84b7082192aa1951829c2f65[m
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Fri Jan 27 16:36:07 2017 -0500
+
+    removed form-control class from radio button and checkbox
+
+[33mcommit 142d78dfb12b3fc22fd8871177e9fab5da7c6be2[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Jan 27 15:35:03 2017 -0500
+
+    Add another gulp helper method
+
+[33mcommit 7a1cdc5a699db45fb5d8d1aff055225f52611c86[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Jan 27 15:16:05 2017 -0500
+
+    Add a gulp helper for dependency injections
+
+[33mcommit 3e4016d615a06bab5d409d8afcf3baf88afc0025[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Jan 27 11:22:03 2017 -0500
+
+    add date range picker to bower
+
+[33mcommit 6449b4d9897562910c8784add5e06f8fc5b4a384[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Jan 27 11:10:54 2017 -0500
+
+    Add full calendar to bower
+
+[33mcommit 32060f766e6463064fa1af15debba9e607b04e73[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Jan 27 10:58:44 2017 -0500
+
+    Distribute oms file manually with bower
+
+[33mcommit ec73a44e51a4d947dbf234d96df42cb5f728a462[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Jan 27 10:48:29 2017 -0500
+
+    Add placeholders to bower and update versions to support latest bug fix versions
+
+[33mcommit e56916ecbe542e1cf21be16a9a8fd16bfb74ea6c[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Jan 27 10:38:33 2017 -0500
+
+    Still trying to fix ignore
+
+[33mcommit c42234d3cad6be0f002ef2326d79debe271dfcae[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Jan 27 10:33:55 2017 -0500
+
+    trying to fix ignore
+
+[33mcommit 9f6beb3720a7e0ddc3a25f1bf48d0fa8189bd068[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Jan 27 10:29:51 2017 -0500
+
+    Trying to fix ignore
+
+[33mcommit 48031cf34589db4ab7b3cf599e02fcd1e7c6e364[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Jan 27 10:25:53 2017 -0500
+
+    Ignore more files for bower distributions
+
+[33mcommit eeaca50bb339772c0a8bc8a2e5f9c8a687a539a8[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Jan 27 09:54:09 2017 -0500
+
+    Add jQuery editable select to bower
+
+[33mcommit 36e3c06fa73f13345b964cd1cae6a7cb7fc5131b[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Fri Jan 27 09:08:48 2017 -0500
+
+    Forgot to build before committing
+
+[33mcommit 9bf070ef5176f9b4dcca6a43c0f09ee69fc00e64[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 18:45:02 2017 -0500
+
+    Remove overrides from bower (didn't work) and fix baseUrl params to allow blanks
+
+[33mcommit 53d5373748e20f8b3556b60518052e36ca808cf8[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 15:17:52 2017 -0500
+
+    Add bootstrap main overrides to bower
+
+[33mcommit e4d003ae48578d5a8b89079f27f7c58330944bf9[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 13:11:58 2017 -0500
+
+    Reverse order of file concat
+
+[33mcommit 694147ced2018ea8652afdc180f0fe5f6c69fb19[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 12:57:24 2017 -0500
+
+    Process formValidation lib with gulp file
+    Use bower for intlTelInput and jQuery.maskedInput
+
+[33mcommit e0c83fc1a5696f20410f7d42654e70cf9bf1fedf[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 12:23:42 2017 -0500
+
+    Forgot about the css file
+
+[33mcommit 31cf6bf895c291b4cf51d7b806b7041d2fe94e92[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 12:20:58 2017 -0500
+
+    Copy bootstrap mutiselect during build phase
+
+[33mcommit 48284d4b844ea89384315c1d82dff2809d92a6bd[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 11:42:55 2017 -0500
+
+    Install bootstrap datetimepicker with bower.
+
+[33mcommit 921a2aee8086f57a25ea3f8bf4fe57ec879fd998[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 11:12:29 2017 -0500
+
+    Update gulp tasks to whitelist js/css files for DIST and remove font task.
+    Add argument to cot_app to optionally avoid loading js files.
+    Add back cookie script
+
+[33mcommit 9a95ae15283831bc6f0df4239ff638a76c2edd96[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 09:49:20 2017 -0500
+
+    update bower dependencies
+
+[33mcommit c9285be8d8af95652c2b60b5e65d0a29076884d6[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 09:42:02 2017 -0500
+
+    Commit dist to repo
+
+[33mcommit ec090e0c5b7e69e380170a468de1a453bab46083[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 09:39:52 2017 -0500
+
+    Ignore package files for bower
+
+[33mcommit 76cf62d9ad566419d296144594e83e86a5fa54a4[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 09:36:20 2017 -0500
+
+    Add gulp file and tasks for composing dist folder
+
+[33mcommit 178d0353ea25c813b36b3827e948ea7b46a1e7f3[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Thu Jan 26 08:46:07 2017 -0500
+
+    Add bower.
+    Use bower for jQuery.cookie.
+
+[33mcommit 1a8224591eb6da0a5c02324ddf89150f8314ac00[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Wed Jan 25 12:02:03 2017 -0500
+
+    Add configuration of base core url.
+    Add more stuff to gitignore
+
+[33mcommit b7f78504b917bb26302aed9da74b9a72e7fa3713[m
+Author: Jason Thomas <jason.thomas@toronto.ca>
+Date:   Wed Jan 25 09:20:31 2017 -0500
+
+    Stop storing IDE-related files in the repo
+
+[33mcommit 1aa9d7fc3135fd69da90dddab41c9a0f9e4b526b[m
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Thu Jan 19 12:21:28 2017 -0500
+
+    Added (required) label for required dropdown select fields
+
+[33mcommit 7743f2ba93e851c18e877e90a0fc80a417ee70d4[m
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Thu Jan 19 12:13:57 2017 -0500
+
+    Updated year to 2017 in footer and added (required) label for required fields
+
+[33mcommit 387dc02ef135492f441a3a470be11970d5a14cfe[m
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Wed Jan 18 15:52:55 2017 -0500
+
+    Lowercase emails in cookie in cot_login.js
+
+[33mcommit bf082ca2a0d313d20596c484a8cea15ac6cbaf11[m
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Wed Jan 18 11:59:02 2017 -0500
+
+    Updated cookie session timeout in cot_login.js
+
+[33mcommit 0da7f289ee57e12be7be1396fa9b8193305d1bb3[m
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Wed Jan 18 11:28:32 2017 -0500
+
+    Modified login script to store email, first name and last name in cookie
+
+[33mcommit 83ab09cc8c2de123ac40f1c13691537a982b86ef[m
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Wed Dec 21 11:12:20 2016 -0500
+
+    added unminifed jquery, fixed typo in cot_template_page.html, updated html5shiv.js to new version and added fail() and always() to login script
+
+[33mcommit beb894bbb02539d8feb506399e221247cbbee570[m
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Wed Dec 14 14:02:54 2016 -0500
+
+    Fixed undefined sid cookie issue, reload page after logout and return error messsage in login modal for invalid username/password
+
+[33mcommit 6bcffac57034c0ab29483d1553c23fa27b622f80[m
+Merge: 31f941b 5ed6cba
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Tue Nov 29 16:20:36 2016 -0500
+
+    Merge branch 'master' of /media/sf_X_DRIVE/secure/docs/webapps/source/corev1.1
+
+[33mcommit 5ed6cba571e0bf2a14e65d930a6e7bc4e23478ff[m
+Author: TorontoRob <rwillia6@toronto.ca>
+Date:   Mon Nov 28 13:48:47 2016 -0500
+
+    fixed login js bug
+
+[33mcommit 31f941b4097f3646eb06b1839bff4124c2bd4d91[m
+Merge: 4abe18e 6d194c0
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Tue Nov 22 15:11:54 2016 -0500
+
+    Merge branch 'master' of /media/sf_X_DRIVE/secure/docs/webapps/source/corev1.1
+
+[33mcommit 6d194c08276d01da357ce233ecfa608d4f76a1f8[m
+Author: TorontoRob <rwillia6@toronto.ca>
+Date:   Tue Nov 22 15:07:30 2016 -0500
+
+    updated login logic
+
+[33mcommit f7b62414f4e76f8dfb6bfd24ce782174a68cfba8[m
+Author: TorontoRob <rwillia6@toronto.ca>
+Date:   Tue Nov 22 14:43:59 2016 -0500
+
+    updated login logic
+
+[33mcommit 4abe18e3c7912ad0b8fa693e3d4b79f48f91245d[m
+Merge: 8dc5b75 2867472
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Mon Nov 21 14:37:46 2016 -0500
+
+    Merge branch 'master' of /media/sf_X_DRIVE/secure/docs/webapps/source/corev1.1
+
+[33mcommit 2867472ab94a4f038857abf9bef61143dcc0aca0[m
+Author: TorontoRob <rwillia6@toronto.ca>
+Date:   Mon Nov 21 14:33:11 2016 -0500
+
+    rays update to date picker
+
+[33mcommit 8dc5b753fdb5f13582801a6efb36feaf47da9e8d[m
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Fri Nov 18 17:07:59 2016 -0500
+
+    fixed datetimepicker to display time correctly
+
+[33mcommit bd6e9b46d344f64e5ac8b1c7982503288344d3da[m
+Author: Ray Yick <ryick@toronto.ca>
+Date:   Thu Nov 17 16:01:37 2016 -0500
+
+    added cols and rows attributes to textarea field and fixed jslint issues
+
+[33mcommit 06c686a0442bdb249fbcc7867b53ecef65324608[m
+Author: TorontoRob <rwillia6@toronto.ca>
+Date:   Wed Nov 16 17:21:06 2016 -0500
+
+    updated login logic
+
+[33mcommit 71ebdcca44483473abbcd333cb8ad7467a96d582[m
+Author: TorontoRob <rwillia6@toronto.ca>
+Date:   Wed Nov 16 16:58:14 2016 -0500
+
+    updated bug in date picker
+
+[33mcommit 4a829eaab5eaaf7d7d1c71af34e60f6f2f28cd02[m
+Author: TorontoRob <rwillia6@toronto.ca>
+Date:   Wed Nov 16 16:00:37 2016 -0500
+
+    added utility divs to page template
+
+[33mcommit 6cf81afd3446b782b6acc5a49c8b339957e22460[m
+Author: TorontoRob <rwillia6@toronto.ca>
+Date:   Wed Nov 16 12:42:21 2016 -0500
+
+    updated login JS
+
+[33mcommit 48b2c00ac3938b44ae573fbd424ceb30e164941e[m
+Author: TorontoRob <rwillia6@toronto.ca>
+Date:   Wed Nov 16 09:13:05 2016 -0500
+
+    added login html
+
+[33mcommit 3156fff6cb64de1b88e8f914cc9272a619280635[m
+Author: TorontoRob <rwillia6@toronto.ca>
+Date:   Tue Nov 15 16:17:01 2016 -0500
+
+    added login js
+
+[33mcommit 40c9f662dfb69ff8c51b023015815019700af297[m
+Author: TorontoRob <rwillia6@toronto.ca>
+Date:   Mon Nov 14 11:59:30 2016 -0500
+
+    updated accessibility features and ID on elements
